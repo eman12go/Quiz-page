@@ -1,0 +1,65 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px 4px 4px;
+
+  position: static;
+  width: 227px;
+  height: 55px;
+  left: 56.5px;
+  top: 24px;
+
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #e8e8e8;
+  border-radius: 20px;
+  margin: 10px 0px;
+}
+
+.profile img {
+  position: relative;
+  width: 32px;
+  height: 44px;
+  left: 17px;
+  top: 0px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+footer {
+  top: 322px;
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 154px;
+  height: 224px;
+
+  background: #0053cb;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.g-btn button {
+  letter-spacing: 0.1rem;
+  font-size: 30px;
+  width: 450px;
+}
+.s-quiz {
+  position: relative;
+  top: 500px;
+}
+.ch-text {
+  position: relative;
+  top: 200px;
+}
